@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    .header{
+        text-align: center;
+        color: whitesmoke;
+        background-color: rgb(234, 162, 174);
+    }
+    .banner{
+        position:relative;
+        width:100%;
+        height: 300px;
+        overflow:hidden;
+        
+    }
+
+    .video-banner{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        background-color: rgba(0, 0, 0, 0.451);
+    }
+
+    .texto-banner{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        color: whitesmoke;
+        text-align:center;
+        font-size: x-large;
+        font-style: italic;
+    }
+
+    .menu{
+        display:flex;
+        justify-content:space-around;
+        margin:20px 0;
+    }
+    .item-menu{
+        text-align:center;
+        cursor:pointer;
+    }
+    .item-menu img{
+        width:120px;
+        border-radius: 10px;
+        transition:transform 0.3s;
+    }
+    .item-menu h3{
+        color: palevioletred;
+    }
+   
+    .rodape {
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: rgb(224, 155, 167);
+        padding: 20px 50px;
+        gap: 20px;
+    }
+    .esquerda, 
+    .direita{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        min-width: 200px;
+
+    }
+
+    .rodape h3{
+        color: white;
+        margin: 0;
+        font-size: 16px;
+    }
+    .rodape ul{
+        list-style: disc;
+        padding-left: 20px;
+        margin: 0;
+    }
+    .rodape ul li {
+        color: rgb(255, 239, 242);
+        margin: 0;
+        line-height: 1;
+    }
+    .rodape ul li::marker{
+        color: white;
+    }
+
+    .rodape .redes{
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+        gap: 8px;
+    }
+    .rodape .redes img{
+        width: 40px;
+        height: 40px;
+
+    }
+    
+</style>
+
+    <title>Artemis Glow</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Artemis Glow</h1>
+        <p>Tecnologia que brilha com você! ⋆˙⟡</p>
+    </header>
+
+    <section class="banner">
+        <video autoplay muted loop
+         class="video-banner">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+    <div class="texto-banner">
+        <h2>Seu setup também pode ter personalidade!</h2>
+    </div>
+    </section>
+
+    <nav class="menu">
+        <div class="item-menu">
+            <a href="sobre.html">
+            <img src="icon_artemis.png" alt="icone artemis">
+            <h3>Sobre a Artemis </h3>
+            </a>
+        </div>
+
+        <div class="item-menu">
+            <a href="produtos.html">
+            <img src="icon_produtos.png" alt="icone produtos">
+            <h3>Produtos </h3>
+            </a>
+        </div>
+
+        <div class="item-menu">
+            <a href="faleconosco.html">
+            <img src="icon_faleconosco.png" alt="icone chat">
+            <h3>Fale Conosco</h3>
+            </a>
+        </div>
+    </nav>
+
+    <footer class="rodape">
+        <div class="esquerda">
+            <h3>Contato</h3>
+            <ul>
+            <li>E-mail: faleconosco@artemisglow.com.br</li>
+            <li>Telefone e WhatsApp: (00) 00000-0000</li>
+            </ul>
+
+            <div class="redes">
+            <img src="insta.png" alt="insta">
+            <h3>Instagram</h3>
+             </div>
+        </div>
+
+        <div class="direita">
+            <h3>Endereço</h3>
+            <ul>
+            <li>Av. Castelo Branco, 300 - São Paulo</li>
+            </ul>
+
+            <h3>Horário de Funcionamento</h3>
+            <ul>
+            <li>Segunda a Sexta: 9h às 18h</li>
+            <li>Sábado: 9h às 13h</li>
+            </ul>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

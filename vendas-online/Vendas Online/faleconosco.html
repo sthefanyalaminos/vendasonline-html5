@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+<style>
+    .header{
+        text-align: center;
+        color: whitesmoke;
+        background-color: rgb(234, 162, 174);
+    }   
+
+    table{
+        margin: 0 auto;
+        background-color: rgba(221, 152, 162);
+        color: white;
+    }
+        
+    table td, table th{
+        padding: 5px;
+    }
+
+    table input, table select{
+        height: 20px;
+    }
+
+    table textarea{
+        height: 80px;
+    }
+
+    .volta {
+        text-align: center;
+    }
+    .volta a{
+        text-decoration: none;
+        color: palevioletred;
+    }
+
+    .rodape {
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: rgb(224, 155, 167);
+        padding: 20px 50px;
+        gap: 20px;
+    }
+    .esquerda, 
+    .direita{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        min-width: 200px;
+
+    }
+    .rodape h3{
+        color: white;
+        margin: 0;
+        font-size: 16px;
+    }
+    .rodape ul{
+        list-style: disc;
+        padding-left: 20px;
+        margin: 0;
+    }
+    .rodape ul li {
+        color: rgb(255, 239, 242);
+        margin: 0;
+        line-height: 1;
+    }
+    .rodape ul li::marker{
+        color: white;
+    }
+
+    .rodape .redes{
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+        gap: 8px;
+    }
+    .rodape .redes img{
+        width: 40px;
+        height: 40px;
+
+    }
+</style>
+
+</head>
+<body>
+
+    <header class="header">
+        <h1>Artemis Glow</h1>
+        <p>Tecnologia que brilha com você! ⋆˙⟡</p>
+    </header>
+
+    <form method="post">
+    <table>
+
+        <thead>
+            <tr>
+                <th colspan="2">*.·.✧ Fale Conosco ✧.·.*</th>
+            </tr>
+            <tr>
+            <td colspan="2">Preencha o formulário abaixo e entraremos em contato o mais rápido possível!</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input type='text' id="nome" required><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">E-mail:</label></td>
+                <td><input type="email" id="email" required><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="telefone">Telefone:</label></td>
+                <td><input type="tel" pattern="^\(\d{2}\)\d{5}[-\s]\d\{4}\$" placeholder="(XX) XXXXX-XXXX" id="telefone" required><br></td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <p>Preferência de Contato:</p>
+                </td>
+
+                <td>
+                    <input type="radio" id="prefemail" value="email" name="contato" required>
+                    <label for="prefemail">E-mail</label>
+                    <input type="radio" id="preftelefone" value="telefone" name="contato">
+                    <label for="preftelefone">Telefone</label>
+                    <br>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label for ="assunto">Assunto:</label>
+                </td>
+
+                <td>
+                    <select id="assunto" name="assunto" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="duvidas">Dúvidas</option>
+                        <option value="acompanhamento">Acompanhamento de Pedidos</option>
+                        <option value="garantia">Garantia</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="npedido">Nº Pedido:</label></td>
+                <td><input type="text" inputmode="numeric" id="npedido"><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="mensagem">Mensagem:</label></td>
+                <td><textarea id="mensagem" name="mensagem" required></textarea><br></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="termo" name="termo" value="termo" required>
+                    <label for="termo">Concordo com os Termos de Uso e autorizo o contato da equipe.</label>
+                    <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="Enviar" name="enviar"></td>
+                <td><input type="reset" value="Deletar" name="deletar"><br></td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+            <th colspan="2">Agradecemos a confiança!</th>
+            </tr>
+        </tfoot>
+
+    </table>
+    </form>
+
+    <nav class="volta">
+        <a href="home.html">Voltar para Home ➶</a>
+    </nav>
+
+    <footer class="rodape">
+        <div class="esquerda">
+            <h3>Contato</h3>
+            <ul>
+            <li>E-mail: faleconosco@artemisglow.com.br</li>
+            <li>Telefone e WhatsApp: (00) 00000-0000</li>
+            </ul>
+
+            <div class="redes">
+            <img src="insta.png" alt="insta">
+            <h3>Instagram</h3>
+             </div>
+        </div>
+
+        <div class="direita">
+            <h3>Endereço</h3>
+            <ul>
+            <li>Av. Castelo Branco, 300 - São Paulo</li>
+            </ul>
+
+            <h3>Horário de Funcionamento</h3>
+            <ul>
+            <li>Segunda a Sexta: 9h às 18h</li>
+            <li>Sábado: 9h às 13h</li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
