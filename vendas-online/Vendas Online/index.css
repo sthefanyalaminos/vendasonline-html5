@@ -381,8 +381,18 @@ html{
         height: 30px;
         border-radius: 10px;
         border: none;
-        background-color: #E0A8A8;
+        background-color: #F5D1D1;
         cursor: pointer;
         margin-top: -4px;
+        background-image: url(https://i.ibb.co/rRS15bk4/img-cart.png);
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: transform 0.2s ease;
+    }
+
+    .cards_cart:hover{
+        background-color: #E0A8A8;
+        transform: scale(1.02);
     }
 
