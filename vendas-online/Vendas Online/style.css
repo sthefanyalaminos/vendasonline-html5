@@ -521,7 +521,7 @@ html{
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("https://i.ibb.co/z1dSYqP/unnamed.jpg");
+    background-image: url("assets/contato/img_contato.png");
     background-size: cover;
     background-position: center;
     opacity: 0.4;
