@@ -68,7 +68,57 @@
     </div>
 
     <div class="form">
-        
+        <form method="post" class="form">
+            <h1 class="title_form">.·.✧ Fale Conosco ✧.·.</h1>
+            <p class="subt_form">Preencha o formulário abaixo e entraremos em contato o mais rápido possível!</p>
+
+            <div class="campos">
+                <label for="nome">Nome:</label>
+                <input type='text' placeholder="Escreva seu nome" id="nome"  required>
+            </div>
+    
+            <div class="campos">
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="seuemail@dominio.com.br" id="email" required>
+            </div>
+
+            <div class="campos">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" pattern="^\(\d{2}\)\d{5}[-\s]\d\{4}\$" placeholder="(XX) XXXXX-XXXX" id="telefone" required>
+            </div>
+ 
+            <div class="campos">
+                <label for ="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="duvidas">Dúvidas</option>
+                        <option value="acompanhamento">Acompanhamento de Pedidos</option>
+                        <option value="garantia">Garantia</option>
+                        <option value="outros">Outros</option>
+                    </select>  
+            </div>      
+
+            <div class="campos">
+                <label for="npedido">Nº Pedido:</label>
+                    <input type="text" inputmode="numeric" placeholder="XXXXXX" id="npedido">
+            </div>
+
+            <div class="campos">
+                <label for="mensagem">Mensagem:</label>
+                <textarea placeholder="Escreva sua mensagem" id="mensagem" name="mensagem" required></textarea>
+            </div>
+
+            <div class="campos_check">
+                <input type="checkbox" id="termo" name="termo" value="termo" required>
+                    <label for="termo">Concordo com os Termos de Uso e autorizo o contato da equipe.</label>
+            </div>
+             
+            <div class="campos_termos">
+                <input type="submit" value="Enviar" name="enviar"></td>
+                <input type="reset" value="Deletar" name="deletar">
+            </div>
+
+        </form>
     </div>
 
 </section>
