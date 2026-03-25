@@ -295,7 +295,7 @@ html{
     justify-content: space-between;
     padding: 0 40px;
     box-sizing: border-box;
-    animation: fadein 2s ease-out 0.6s;
+    animation: fadein 1s ease-out 0.6s;
     animation-fill-mode: backwards;
 }
 
@@ -401,7 +401,7 @@ html{
         z-index: 0;
     }
 
-#col_produtos{
+#apple{
     position: relative;
     height: 100vh;
     width: 100%;
@@ -411,13 +411,47 @@ html{
     padding: 2.5vh 3vw 2vh 1.5vw;
     box-sizing: border-box;
     overflow: hidden;
+    z-index: 1;
 }
+
+#apple::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("assets/produtos/img_bcapple.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+    .atext h1{
+        text-align: center;
+        margin-top: 20px;
+        font-family: "Helvetica", Arial, sans-serif;
+        color: #D46D9A;
+        font-size: 50px;
+        text-shadow: 0px 2px 10px #f8f5f692;
+        margin-bottom: 10px;
+    }
+
+    .atext p{
+        text-align: center;
+        font-family: "Arial", Helvetica, sans-serif;
+        color: #E0A8A8;
+        font-size: 25px;
+        text-shadow: 0px 4px 15px #f0e4e4c2;
+        margin-bottom: 5px;
+    }
 
     .grid{
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 2.5vh 2vw;
+        align-items: start;
+        justify-content: center;
+        margin-top: 20px;
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 2.5vh 4vw;
         flex: 1;
         width: 100%;
     }
@@ -425,8 +459,8 @@ html{
     .cards{
         background-color: #FFFFFF;
         border-radius: 20px;
-        width: 100%;
-        padding: 1.8vh 1.5vh;
+        width: auto;
+        padding: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -443,7 +477,7 @@ html{
 
     .cards_img{
         width: 100%;
-        height: 25vh;
+        height: 40vh;
         object-fit: cover;
         clip-path: inset(2px round 12px);
         margin-top: -4px;
@@ -484,12 +518,11 @@ html{
 
     .cards_cart{
         width: 100%;
-        height: 4vh;
+        height: 5vh;
         border-radius: 10px;
         border: none;
         background-color: #F5D1D1;
         cursor: pointer;
-        margin-top: auto;
         background-image: url(https://i.ibb.co/rRS15bk4/img-cart.png);
         background-size: 2vh 2vh;
         background-repeat: no-repeat;
