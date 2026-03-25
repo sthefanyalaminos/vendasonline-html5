@@ -491,6 +491,38 @@ html{
         color: #D46D9A;
     }
 
+#headphone{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: #FFF5E4; 
+    display: flex;
+    flex-direction: column; 
+    padding: 2.5vh 3vw 2vh 1.5vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#headphone::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("assets/produtos/img_bcapple.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+    #headphone .ptext h1{
+        color: #D46D9A;
+    }
+
+    #headphone .ptext p{
+        color: #E0A8A8;
+    }
+
 
     .ptext h1{
         text-align: center;
