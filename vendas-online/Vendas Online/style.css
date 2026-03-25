@@ -425,7 +425,7 @@ html{
     z-index: -1;
 }
 
-    .atext h1{
+    .ptext h1{
         text-align: center;
         margin-top: 20px;
         font-family: "Helvetica", Arial, sans-serif;
@@ -435,7 +435,7 @@ html{
         margin-bottom: 10px;
     }
 
-    .atext p{
+    .ptext p{
         text-align: center;
         font-family: "Arial", Helvetica, sans-serif;
         color: #E0A8A8;
@@ -610,7 +610,7 @@ html{
     color: #FFFFFF;
     border-radius: 10px;
     border: none;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px #e0a8a8d6;
     transition: 0.5s;
     animation: fadein 1.5s ease-out;
     }
