@@ -425,6 +425,39 @@ html{
     z-index: -1;
 }
 
+#teclado{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: #E0A8A8; 
+    display: flex;
+    flex-direction: column; 
+    padding: 2.5vh 3vw 2vh 1.5vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#teclado::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("assets/produtos/img_bcapple.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+#teclado .ptext h1{
+    color: #FFF5E4;
+    text-shadow: none;
+}
+
+#teclado .ptext p{
+    color: #FFFFFF;
+}
+
     .ptext h1{
         text-align: center;
         margin-top: 20px;
