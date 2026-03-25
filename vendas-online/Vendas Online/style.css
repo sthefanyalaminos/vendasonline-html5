@@ -449,14 +449,48 @@ html{
     z-index: -1;
 }
 
-#teclado .ptext h1{
-    color: #FFF5E4;
-    text-shadow: none;
+    #teclado .ptext h1{
+        color: #FFF5E4;
+        text-shadow: none;
+    }
+
+    #teclado .ptext p{
+        color: #FFFFFF;
+    }
+
+#mouse{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: #F5D1D1; 
+    display: flex;
+    flex-direction: column; 
+    padding: 2.5vh 3vw 2vh 1.5vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
 }
 
-#teclado .ptext p{
-    color: #FFFFFF;
+#mouse::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("assets/produtos/img_bcapple.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: -1;
 }
+
+    #mouse .ptext h1{
+        color: #E0A8A8;
+        text-shadow: none;
+    }
+
+    #mouse .ptext p{
+        color: #D46D9A;
+    }
+
 
     .ptext h1{
         text-align: center;
@@ -556,7 +590,7 @@ html{
         border: none;
         background-color: #F5D1D1;
         cursor: pointer;
-        background-image: url(https://i.ibb.co/rRS15bk4/img-cart.png);
+        background-image: url("assets/img_cart.png");
         background-size: 2vh 2vh;
         background-repeat: no-repeat;
         background-position: center;
