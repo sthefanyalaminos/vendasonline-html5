@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,13 +26,13 @@
         </nav>
     </header>
 
-<section id="produtos">
+<main id="produtos">
 
     <div class="img_produtos">
         <img class="img_produtos" src="assets/produtos/img_produtos.png">
     </div>
 
-</section>
+</main>
 
 <section id="apple">
     <div class="ptext">
@@ -50,7 +50,7 @@
             <p class="cards_marca">Apple</p>
             <p class="cards_preco">R$7.299,00</p>
 
-            <button class="cards_cart" img src="assets/img_cart.png"></button>
+            <button class="cards_cart" aria-label="Adicionar produto ao carrinho"></button>
         </article>
 
         <article class="cards">
@@ -60,7 +60,7 @@
             <p class="cards_marca">Apple</p>
             <p class="cards_preco">R$6.799,00</p>
 
-            <button class="cards_cart" img src="assets/img_cart.png"></button>
+            <button class="cards_cart" aria-label="Adicionar produto ao carrinho"></button>
         </article>
 
         <article class="cards">
@@ -70,7 +70,7 @@
             <p class="cards_marca">Apple</p>
             <p class="cards_preco">R$1.879,00</p>
 
-            <button class="cards_cart" img src="assets/img_cart.png"></button>
+            <button class="cards_cart" aria-label="Adicionar produto ao carrinho"></button>
         </article>
 
     </div>
@@ -94,7 +94,7 @@
             <p class="cards_marca">Hallo</p>
             <p class="cards_preco">R$279,00</p>
 
-            <button class="cards_cart" img src="assets/img_cart.png"></button>
+            <button class="cards_cart" aria-label="Adicionar produto ao carrinho"></button>
         </article>
 
         <article class="cards">
@@ -104,7 +104,7 @@
             <p class="cards_marca">Furrycube</p>
             <p class="cards_preco">R$149,00</p>
 
-            <button class="cards_cart" img src="assets/img_cart.png"></button>
+            <button class="cards_cart" aria-label="Adicionar produto ao carrinho"></button>
         </article>
 
         <article class="cards">
@@ -114,7 +114,7 @@
             <p class="cards_marca">Furrycube</p>
             <p class="cards_preco">R$224,00</p>
 
-            <button class="cards_cart" img src="assets/img_cart.png"></button>
+            <button class="cards_cart" aria-label="Adicionar produto ao carrinho"></button>
         </article>
 
     </div>
@@ -138,7 +138,7 @@
             <p class="cards_marca">Logitech</p>
             <p class="cards_preco">R$59,00</p>
 
-            <button class="cards_cart" img src="assets/img_cart.png"></button>
+            <button class="cards_cart" aria-label="Adicionar produto ao carrinho"></button>
         </article>
 
         <article class="cards">
@@ -148,7 +148,7 @@
             <p class="cards_marca">Redragon</p>
             <p class="cards_preco">R$219,00</p>
 
-            <button class="cards_cart" img src="assets/img_cart.png"></button>
+            <button class="cards_cart" aria-label="Adicionar produto ao carrinho"></button>
         </article>
 
         <article class="cards">
@@ -158,7 +158,7 @@
             <p class="cards_marca">Logitech</p>
             <p class="cards_preco">R$349,00</p>
 
-            <button class="cards_cart" img src="assets/img_cart.png"></button>
+            <button class="cards_cart" aria-label="Adicionar produto ao carrinho"></button>
         </article>
 
     </div>
@@ -181,7 +181,7 @@
             <p class="cards_marca">Dapon</p>
             <p class="cards_preco">R$99,00</p>
 
-            <button class="cards_cart" img src="assets/img_cart.png"></button>
+            <button class="cards_cart" aria-label="Adicionar produto ao carrinho"></button>
         </article>
 
         <article class="cards">
@@ -191,7 +191,7 @@
             <p class="cards_marca">JBL</p>
             <p class="cards_preco">R$299,00</p>
 
-            <button class="cards_cart" img src="assets/img_cart.png"></button>
+            <button class="cards_cart" aria-label="Adicionar produto ao carrinho"></button>
         </article>
 
         <article class="cards">
@@ -201,7 +201,7 @@
             <p class="cards_marca">Soundcore</p>
             <p class="cards_preco">R$329,00</p>
 
-            <button class="cards_cart" img src="assets/img_cart.png"></button>
+            <button class="cards_cart" aria-label="Adicionar produto ao carrinho"></button>
         </article>
 
     </div>
@@ -217,27 +217,28 @@
     </ul>
 
     <ul class="right">
-        <figure>
-            <li><img src="assets/img_phone.png" alt="Telefone"></li>
-             <figcaption>(11) 99999-9999</figcaption>
-        </figure>
+        
+        <li>
+            <figure><img src="assets/img_phone.png" alt="Telefone">
+            <figcaption>(11) 99999-9999</figcaption></figure>
+        </li>
 
-        <figure>
-            <li><img src="assets/img_email.png" alt="E-mail"></li>
-            <figcaption>artemisglow@artemis.com</figcaption>
-        </figure>
+        <li>
+            <figure><img src="assets/img_email.png" alt="E-mail">
+            <figcaption>artemisglow@artemis.com</figcaption></figure>
+        </li>
 
-        <figure>
-            <li><img src="assets/img_loc.png" alt="Localização"></li>
-            <figcaption>São Paulo, Brazil</figcaption>
-        </figure>
+        <li>
+            <figure><img src="assets/img_loc.png" alt="Localização">
+            <figcaption>São Paulo, Brazil</figcaption></figure>
+        </li>
     </ul>
 
     <ul class="logo">
-        <figure>
-            <li><a href="index.html"><img src="assets/img_ficon.png" alt="Ícone Artemis Glow"></a></li>
-            <figcaption>Artemis Glow</figcaption>
-        </figure>
+        <li>
+            <figure><a href="#home"><img src="assets/img_ficon.png" alt="Ícone Artemis Glow"></a>
+            <figcaption>Artemis Glow</figcaption></figure>
+        </li>
     </ul>
 
     <ul class="redes">
