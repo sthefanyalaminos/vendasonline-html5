@@ -778,10 +778,10 @@ section{
     position: relative;
     height: 50vh;
     width: 100%;
-    background-color: #E0A8A8;
+    background-color: #F5D1D1;
     font-family: "Verdana", Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #FFFFFF;
+    color: #D46D9A;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -859,5 +859,9 @@ section{
     }
 
     .footer .left p:hover{
+        color: #f5dad2;
+    }
+
+    .footer .right figcaption:hover{
         color: #f5dad2;
     }
