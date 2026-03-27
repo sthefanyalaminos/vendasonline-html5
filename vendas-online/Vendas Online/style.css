@@ -857,11 +857,3 @@ section{
         justify-content: center;
         grid-column: 1/-1;
     }
-
-    .footer .left p:hover{
-        color: #f5dad2;
-    }
-
-    .footer .right figcaption:hover{
-        color: #f5dad2;
-    }
