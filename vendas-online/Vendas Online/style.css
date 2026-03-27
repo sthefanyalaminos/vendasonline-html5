@@ -218,7 +218,7 @@ section{
         animation-fill-mode: backwards;
     }
 
-        .stext h1{
+        .stext h2{
             font-family: "Helvetica", Verdana, Arial, sans-serif;
             font-size: 70px;
             color: #D46D9A;
@@ -666,7 +666,7 @@ section{
         animation-fill-mode: backwards;
     }
 
-        .ctext h1{
+        .ctext h2{
             font-family: "Helvetica", Verdana, Arial, sans-serif;
             font-size: 50px;
             color: #D46D9A;
@@ -682,7 +682,7 @@ section{
             margin-bottom: 15px;
         }
 
-        .ctext h2{
+        .ctext h3{
             font-family: "Helvetica", Verdana, Arial sans-serif;
             font-size: 30px;
             color: #D46D9A;
