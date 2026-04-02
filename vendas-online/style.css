@@ -673,7 +673,7 @@ section{
         }
 
         .ctext p{
-            font-family: "Helvetica", Verdana, Arial sans-serif;
+            font-family: "Helvetica", Verdana, Arial, sans-serif;
             font-size: 25px;
             color: #E0A8A8;
             text-align: justify;
@@ -683,7 +683,7 @@ section{
         }
 
         .ctext h3{
-            font-family: "Helvetica", Verdana, Arial sans-serif;
+            font-family: "Helvetica", Verdana, Arial, sans-serif;
             font-size: 30px;
             color: #D46D9A;
             margin-bottom: 15px;
