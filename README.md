@@ -1,4 +1,6 @@
 # 🛍️ Vendas Online - Artemis Glow
+[Translate to English](https://github.com/sthefanyalaminos/vendasonline-html5/blob/main/README_EN.md)
+
 E-commerce frontend de produtos tecnológicos com estética feminina, desenvolvido como projeto acadêmico no curso de Análise e Desenvolvimento de Sistemas - Mackenzie.
 
 <div align="right">
