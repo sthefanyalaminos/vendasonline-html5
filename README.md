@@ -1,4 +1,4 @@
-# Vendas Online - Artemis Glow
+# 🛍️ Vendas Online - Artemis Glow
 E-commerce frontend de produtos tecnológicos com estética feminina, desenvolvido como projeto acadêmico no curso de Análise e Desenvolvimento de Sistemas - Mackenzie.
 
 <div align="right">
@@ -21,5 +21,5 @@ Durante o desenvolvimento do projeto, foram praticados os seguintes conceitos da
 - Formulários HTML5 - Campos com validação nativa.
 - Acessibilidade - Atributos aria-label em botôes e uso semântico de figure com figcaption.
 
-## Autoria
+## Autoria 
 Desenvolvido por Sthefany Alaminos, como projeto acadêmico para disciplina de Fundamentos Web do Curso Análise e Desenvolvimento de Sistemas - Universidade Presbiteriana Mackenzie. 
