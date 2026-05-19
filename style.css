@@ -786,9 +786,10 @@ section{
     font-family: "Verdana", Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #D46D9A;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    box-sizing: border-box;
 }
 
     .footer figure{
@@ -805,6 +806,8 @@ section{
         display: list-item;
         list-style: none;
         padding: 40px;
+        flex: 0 0 50%;
+        box-sizing: border-box;
     }
 
     .footer .right{
@@ -859,5 +862,5 @@ section{
         display: flex;
         align-items: center;
         justify-content: center;
-        grid-column: 1/-1;
+        width: 100%;
     }
