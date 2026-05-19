@@ -829,8 +829,8 @@ section{
         display: flex;
         align-items: center;
         list-style: none;
-        padding: 40px; 
-        gap: 40px; 
+        padding: 40px;
+        gap: 40px;
         flex: 0 0 50%;
         box-sizing: border-box;
     }
