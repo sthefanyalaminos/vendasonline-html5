@@ -813,10 +813,11 @@ section{
     .footer .right{
         display: list-item;
         align-items: center;
-        margin-left: auto;
         list-style: none;
         padding: 40px;
         margin-top: 20px;
+        flex: 0 0 50%;
+        box-sizing: border-box;
     }
 
     .footer .right img{
@@ -830,6 +831,8 @@ section{
         list-style: none;
         padding: 40px; 
         gap: 40px; 
+        flex: 0 0 50%;
+        box-sizing: border-box;
     }
 
     .footer .logo img{
@@ -843,11 +846,14 @@ section{
 
     .footer .redes{
         display: flex;
-        margin-left: auto;
-        margin-right: 150px;
+        align-items: center;
         list-style: none;
         gap: 30px;
         margin-top: 20px;
+        flex: 0 0 50%;
+        box-sizing: border-box;
+        justify-content: flex-end;
+        padding-right: 150px;
     }
 
     .footer .redes img{
@@ -862,5 +868,6 @@ section{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        flex: 0 0 100%;
+        box-sizing: border-box;
     }
