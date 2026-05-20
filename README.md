@@ -18,7 +18,7 @@ O site conta com duas páginas principais: uma Home com seção sobre a marca e 
 
 ## Tecnologias Utilizadas
 - HTML5;
-- CSS3 com Grid Layout e Flexbox;
+- CSS3;
 - Formulário com validação nativa via HTML5.
 
 ## Conceitos Aplicados
