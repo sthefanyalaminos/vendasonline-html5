@@ -18,7 +18,7 @@ The site features two main pages: a Home page with a brand overview section and 
 
 ## Technologies Used
 - HTML5;
-- CSS3 with Grid Layout and Flexbox;
+- CSS3;
 - Forms with native HTML5 validation.
 
 ## Concepts Applied
