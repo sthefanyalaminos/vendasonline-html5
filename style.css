@@ -965,7 +965,10 @@ section{
         text-align: center;
     }
  
-    .stext h2 { font-size: 42px; }
+    .stext h2 { 
+        font-size: 42px; 
+        text-align: left;
+    }
  
     .stext p {
         font-size: 15px;
@@ -981,23 +984,27 @@ section{
         gap: 10px;
     }
  
+
     .simg img:nth-child(1),
-    .simg img:nth-child(2),
-    .simg img:nth-child(3),
     .simg img:nth-child(4) {
+        flex: 0 0 100%;
+        max-height: 200px;
+    }
+
+    .simg img:nth-child(2),
+    .simg img:nth-child(3) {
         flex: 0 0 calc(50% - 5px);
-        max-height: 180px;
+        max-height: 160px;
     }
  
-    /* ── PRODUTOS hero ── */
  
-    #produtos { height: 50vh; }
+    #produtos { 
+        height: 50vh; 
+    }
  
     .img_produtos {
         height: 50vh;
     }
- 
-    /* ── SEÇÕES DE PRODUTOS ── */
  
     #apple,
     #teclado,
@@ -1019,44 +1026,48 @@ section{
     }
  
     .cards {
-        flex: 0 0 calc(50% - 8px);
+        flex: 0 0 360px;
         min-width: 140px;
         max-width: 280px;
     }
  
     .cards_img { height: 28vh; }
  
-    /* ── CONTATO ── */
  
     #contato {
         height: auto;
         min-height: 100vh;
         flex-direction: column;
+        align-items: center;
         padding: 100px 24px 40px;
         gap: 30px;
+        text-align: left;
     }
  
     .ctext {
         animation: none;
-        text-align: center;
+        align-items: center;
     }
  
-    .ctext h2 { font-size: 32px; }
+    .ctext h2 { 
+        font-size: 32px; 
+    }
+
  
     .ctext p {
         font-size: 17px;
         max-width: 100%;
-        text-align: center;
     }
  
-    .ctext h3 { font-size: 22px; text-align: center; }
+    .ctext h3 { 
+        font-size: 22px;  
+    }
  
     .form {
         max-width: 100%;
         animation: none;
     }
  
-    /* ── FOOTER ── */
  
     .footer {
         height: auto;
@@ -1065,6 +1076,7 @@ section{
     .footer_row {
         flex-direction: column;
         align-items: flex-start;
+        height: auto;
         gap: 4px;
     }
  
@@ -1081,6 +1093,7 @@ section{
     .footer .redes {
         padding: 10px 24px;
         gap: 20px;
+        align-items: start;
     }
  
     .footer .bottom p {
