@@ -1015,9 +1015,13 @@ section{
         padding: 90px 16px 40px;
         align-items: center;
     }
- 
+
     .ptext h2 { font-size: 36px; }
-    .ptext p  { font-size: 18px; }
+    .ptext p  { 
+        font-size: 18px; 
+        text-align: justify;
+        align-items: center;
+    }
  
     .grid {
         flex-wrap: wrap;
@@ -1080,31 +1084,37 @@ section{
  
     .footer {
         height: auto;
+        align-items: flex-start;
     }
  
     .footer_row {
         flex-direction: column;
         align-items: flex-start;
         height: auto;
-        gap: 4px;
+        width: 100%;
     }
  
-    .footer .left,
-    .footer .right {
-        padding: 10px 24px;
+    .footer .left {
+        padding: 16px 24px 8px;
         gap: 6px;
+    }
+
+    .footer .right {
+        padding: 8px 24px;
+        gap: 6px;
+        margin-left: 0;
     }
  
     .footer .logo {
-        padding: 10px 24px;
+        padding: 8px 24px;
     }
  
     .footer .redes {
-        padding: 10px 24px;
-        gap: 20px;
-        align-items: flex-start;
         flex-direction: row;
         justify-content: flex-start;
+        align-items: center;
+        padding: 8px 24px 16px;
+        gap: 20px;
     }
  
     .footer .bottom p {
