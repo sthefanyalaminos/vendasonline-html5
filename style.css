@@ -1208,8 +1208,6 @@ section{
  
     .cards {
         flex: 0 0 200px;
-        min-width: 160px;
-        max-width: 220px;
     }
 
     .cards_img {
