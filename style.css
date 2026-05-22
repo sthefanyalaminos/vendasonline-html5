@@ -1216,6 +1216,7 @@ section{
     }
 }
 
+    /* Mobile pequeno */
 @media (max-width: 480px) {
  
     .menu ul li,
