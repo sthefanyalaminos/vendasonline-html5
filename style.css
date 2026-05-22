@@ -1109,7 +1109,7 @@ section{
     }
 
     .nav-list li a img.user {
-        width: 20px;
+        width: 25px;
         display: inline-block;
         position: static;
         filter: brightness(0) invert(1);
