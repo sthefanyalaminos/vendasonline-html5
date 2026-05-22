@@ -11,13 +11,25 @@
 <body>
     <header>
         <nav class="menu">
-            <ul class="left">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="produtos.html">Produtos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
 
             <a href="#home"><img class="icon" src="assets/img_icon.png" alt="Ícone Artemis Glow"></a>
+
+            <div class="nav-links">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#" aria-label="Carrinho"><img class="user" src="assets/img_cart.png" alt="Ícone Carrinho"></a></li>
+                    <li><a href="#" aria-label="Login"><img class="user" src="assets/img_user.png" alt="Ícone User"></a></li>
+                </ul>
+            </div>
 
             <ul class="right">
                 <li><img class="user" src="assets/img_cart.png" alt="Ícone Carrinho"></li>
