@@ -875,8 +875,12 @@ section{
     .nav-links   { display: none; }
 
     /* Tablets */
-@media (max-width: 1024px) {
- 
+@media (max-width: 1370px) {
+    html{
+    scroll-snap-type: none;
+    }
+
+
      .menu ul li,
     .menu_prod ul li {
         padding: 10px 20px;
