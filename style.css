@@ -1072,7 +1072,7 @@ section{
     }
 
     .menu-toggle:checked ~ .nav-links {
-        max-height: 600px;
+        max-height: 900px;
         padding: 10px 0 20px;
     }
 
