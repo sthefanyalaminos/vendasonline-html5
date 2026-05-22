@@ -1377,15 +1377,16 @@ section{
         gap: 16px 12px;
     }
  
-    .cards {
-        flex: 0 0 100%;
-        max-width: 100%;
+   .cards {
+        flex: 0 0 160px;
+        max-width: 180px;
         min-width: unset;
     }
- 
-    .cards_img { 
-        height: 40vw; 
-    }
+
+    .cards_img {
+        height: 180px;
+        object-fit: contain;
+    } 
  
     .cards_txt  { 
         font-size: 14px; 
