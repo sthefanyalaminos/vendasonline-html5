@@ -866,7 +866,6 @@ section{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 60px;
         width: 100%;
         padding: 10px 0;
     }
