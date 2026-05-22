@@ -1207,12 +1207,15 @@ section{
     }
  
     .cards {
-        flex: 0 0 360px;
-        min-width: 140px;
-        max-width: 280px;
+    flex: 0 0 200px;
+    min-width: 160px;
+    max-width: 220px;
     }
- 
-    .cards_img { height: 28vh; }
+
+    .cards_img {
+        height: 220px;
+        object-fit: contain;
+    }
  
  
     #contato {
