@@ -25,7 +25,7 @@ The site features two main pages: a Home page with a brand overview section and 
 The following concepts from the course were practiced during the project's development:
 
 - HTML5 Semantics - Use of elements header, main, section, article, figure and footer to structure the content.
-- CSS - Building layouts using Grid and Flexbox.
+- CSS - Building layouts using Flexbox.
 - HTML5 Forms - Fields with native validation.
 - Accessibility - Aria-label attributes on buttons and semantic use of figure with figcaption.
 
