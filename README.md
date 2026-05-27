@@ -24,7 +24,7 @@ O site conta com duas páginas principais: uma Home com seção sobre a marca e 
 ## Conceitos Aplicados
 Durante o desenvolvimento do projeto, foram praticados os seguintes conceitos da disciplina:
 - Semântica HTML5 - Uso de elementos header, main, section, article, figure e footer para estruturar o conteudo.
-- CSS - Cosntrução de layouts utilizando Grid e Flexbox.
+- CSS - Construção de layouts utilizando Flexbox.
 - Formulários HTML5 - Campos com validação nativa.
 - Acessibilidade - Atributos aria-label em botôes e uso semântico de figure com figcaption.
 
